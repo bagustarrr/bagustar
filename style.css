@@ -16,7 +16,7 @@
     position: relative;
     width: 1920px;
     height: 2930px;
-    background-image: url(./img/image.jpg);
+    background-image: url(/img/image.jpg);
     background-size: 100% 100%;
 }
 
@@ -339,7 +339,7 @@
     position: relative;
     width: 557px;
     height: 394px;
-    background-image: url(./img/surfer.png);
+    background-image: url(/img/surfer.png);
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -405,7 +405,7 @@
     position: relative;
     width: 557px;
     height: 394px;
-    background-image: url(./img/plain.png);
+    background-image: url(/img/plain.png);
     background-size: 100% 100%;
 }
 
