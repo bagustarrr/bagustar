@@ -1,0 +1,11 @@
+.tag {
+  font-size: 13px;
+  padding: 10px 18px;
+  background: #E7E7E7;
+  border-radius: 35px;
+}
+
+.tag--colored {
+  background: #B9EAE4;
+  margin: 0 10px 10px 0;
+}

@@ -1,0 +1,29 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+  /* .partners__item {
+    margin-right: 73px;
+  }
+  
+  .partners__item:nth-child(4n+4) {
+    margin-right: 0;
+  } */
+  
+  .partners__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 124px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+  }
+  
+  .partners__item:hover .partners__link {
+    filter: none;
+    transition: 0.3s;
+  }

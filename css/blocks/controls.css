@@ -1,0 +1,23 @@
+.controls {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  color: #303030;
+}
+
+.contols__item {
+  margin: 0 0 7px 10px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+  color: #1A1B1E;
+}

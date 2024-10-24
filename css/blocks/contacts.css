@@ -1,0 +1,87 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+  }
+  
+  .contacts__phone {
+    font-size: 26px;
+    text-decoration: none;
+    margin-bottom: -8px; 
+    display: flex;
+  }
+  
+  .contacts__schedule {
+    font-size: 13px;
+  }
+  
+  .contacts__schedule {
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+
+  .contacts__link {
+    color: #98A4A8;
+  }
+
+  .contacts__schedule:hover .contacts__drop {
+  opacity: 0.8;
+  pointer-events: visible;
+  transition: opacity 0.5s;
+  }
+
+  .contacts__schedule:hover .contacts__link {
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  .contacts__drop {
+    position: absolute;
+    background: #EDEDED;
+    color: #1E1F20;
+    width: 160px;
+    border-radius: 5px;
+    padding: 15px 19px;
+    top: 100%;
+    opacity: 0;
+    pointer-events: none;
+    margin-top: 6px;
+  }
+
+  .contacts__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+
+  .contacts__item--days {
+    font-weight: bold;
+  }
+
+  .contacts__item--dinner {
+    font-weight: 600;
+  }
+  
+  .contacts__drop:before {
+    content: "";
+    display: block;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9px;
+  }
+
+  .contacts__drop:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 9px solid transparent;
+    border-top-width: 0;
+    border-bottom-color: #EDEDED;
+    position: absolute;
+    bottom: 100%;
+    right: 25%;
+  }

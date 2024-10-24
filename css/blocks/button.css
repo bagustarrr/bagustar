@@ -1,0 +1,61 @@
+.button {
+  text-decoration: none;
+  background: #F5170E;
+  border-radius: 30px;
+  padding: 18px 41px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-flex;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background: #DA0100;
+  transition: 0.5s;
+}
+
+.button--light {
+  background: #fff;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-self: flex-start;
+  margin-top: auto;
+  transition: 0.5s;
+}
+
+.button--light:hover {
+  color:#fff;
+  background: #F5170E;
+  transition: 0.5s;
+}
+
+
+.button--dark {
+  background: #8E8E8E;
+  color: #fff;
+  padding-left: 45px;
+  padding-right: 45px;
+  transition: 0.5s;
+}
+
+.button--dark:hover {
+  background: #2B2B2B;
+  transition: 0.5s;
+}
+
+.button-submit {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.button-submit:hover {
+  background: #F5170E;
+  transition: 0.5s;
+}
+
+.button--welcome {
+  padding: 20px 58px;
+}

@@ -1,0 +1,24 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 774px;
+}
+
+.hero__content {
+  max-width: 45%;
+  margin-bottom: 246px;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.34;
+  margin-bottom: 28px;
+}
+
+.hero__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+

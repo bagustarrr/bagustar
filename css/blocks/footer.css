@@ -1,0 +1,26 @@
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container__content {
+  padding-top: 45px;
+  padding-bottom: 57px;
+  border-top: 4px solid rgb(255 255 255 / 10%);
+}
+
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__info {
+  text-decoration: none;
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+

@@ -1,0 +1,16 @@
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 47px;
+}
+
+.title--fire:after {
+    content:url("../../img/tours/icons/flame.png");
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.title--dark {
+  color: #000;
+  margin-bottom: 37px;
+}

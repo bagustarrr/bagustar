@@ -1,0 +1,20 @@
+.separator {
+  background: url("../../img/separator-bg.png") center top / cover no-repeat;
+}
+
+.separator__container {
+  min-height: 362px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../../img/separator-couple.png") bottom right 5% no-repeat;
+}
+
+.separator__content {
+  max-width: 54%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+}
